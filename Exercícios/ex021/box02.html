@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            font: 1.2em sans-serif;
+            background-color: lightgray;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            font-style: italic;
+            height: 140px;
+            margin: 10px;
+            padding: 5px 10px;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        nav {         
+            background-color: antiquewhite;
+            font-style: normal;
+            padding: 5px;
+            margin-left: 5px;
+            
+        }
+        
+        nav > a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: red;
+        }
+
+        nav > a:hover {
+            color: yellow;
+        }
+
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 15px 15px;
+        }
+
+        article {
+            background-color: lightblue;
+            padding: 10px;
+            border-radius: 15px 20px;
+            box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.521);
+        }
+
+        article > h2 {
+            text-align: center;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        article > aside {
+            background-color: lightgoldenrodyellow;
+            padding: 1px;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center; 
+            margin: 0;
+            padding: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            background-color: red;
+            width: 300px;
+            height: 300px;
+            margin: 50px auto;
+            border-radius: 50%;
+        }
+
+        #bola > a > p{
+            color: black;
+            text-align: center;
+            padding-top: 100px;
+            font: italic bold 2em serif;
+        }
+
+        #bola > a {
+            text-decoration: none;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site</h1>
+        <nav>
+            <a href="#">Link1</a>
+            <a href="#">Link2</a>
+            <a href="#">Link3</a>
+            <a href="#">Link4</a>
+            <a href="#">Link5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="p1">
+            <article>
+                <h2>hmhahahaha</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore maxime deserunt similique reiciendis veniam sed iure quos iusto officiis neque maiores nihil quo, recusandae saepe voluptates dolorem. Cum, consectetur libero.</p>
+                <aside>
+                    <p>loco por tetra</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Loco por yo</p>
+    </footer>  
+    <div id="bola">
+        <a href="https://www.youtube.com/watch?v=NJRmo4z7HCg&ab_channel=FlamengoOnline" target="_blank"><p>GABIGOL TA PEDINDO</p></a>
+        
+       
+    </div>
+</body>
+</html>

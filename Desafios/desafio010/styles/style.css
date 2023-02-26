@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #37C579,#1D653F );
+    margin-top: 0px;
+    height: 175px;
+    
+}
+
+header > h1 {
+    padding-top: 24px;
+    color: white;
+    text-align: center;
+    font: 2.3em 'tahoma', sans-serif;
+}
+
+header > p {
+    margin-top: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.829);
+    font: 1em sans-serif ;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font: bold 1em sans-serif;
+    margin-left: 15px;
+}
+
+main {
+    margin: auto;
+    background-color: white;
+    width: 950px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > section#topo > article > h2 {
+    font: 1.7em idroid;
+    color: #4A7F61;
+    padding: 20px 15px;
+}
+
+main > section#topo > article > p {
+    text-align: justify;
+    margin: -7px 10px;    
+    font: bold 0.9em sans-serif;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+main > section#topo > article > p > a {
+    text-decoration: none;
+    color: #4A7F61;
+}
+
+main > section#middle > article > h3 {
+    background-image: linear-gradient(to right, #B9E1CB, #FFFFFF);
+    margin: 23px 15px;
+    font: 1.3em idroid;
+    color: #377452;
+    padding: 0 7px;
+
+}
+
+main > section#middle > article > p {
+    font: bold 0.9em sans-serif;
+    text-align: justify;
+    margin: -10px 15px;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+main > section#middle > article > p > a {
+    text-decoration: none;
+    color: #4A7F61;
+}
+
+main > section#middle > picture > img {
+    margin: 10px auto;
+    display: block;
+}
+
+main > section#bottom > article > h3 {
+    background-image: linear-gradient(to right, #B9E1CB, #FFFFFF);
+    margin: 23px 15px;
+    font: 1.3em idroid;
+    color: #377452;
+    padding: 0 7px;
+
+}
+
+main > section#bottom > article > p {
+    font: bold 0.9em sans-serif;
+    text-align: justify;
+    margin: -7px 15px 18px;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+main > section#bottom > article > p > a {
+        text-decoration: none;
+        color: #4A7F61;
+    }
+
+main > section#bottom > picture#pic1 {
+    margin: 20px 71px;
+    display: block;
+}
+
+main > section#bottom > picture#pic2 {
+    margin: 20px 321px;
+    display: block;
+}
+
+main > section#video {
+    background-color: #1A5C38;
+}
+
+main > section#video > iframe {
+    width: 92%;
+    height: 500px;
+    padding: 20px 0px;
+    margin: auto;
+    display: block;
+}
+
+main > section#lista {
+    background-color: #2FA866;
+    width: 92%;
+    margin: 10px auto;
+    border-radius: 10px 10px 50px 50px;
+}
+
+main > section#lista > article > h4 {
+    color: #FFFFFF;
+    font: 1.1em sans-serif;
+    padding: 10px 7px;
+}
+
+main > section#lista > article > section#list {
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.24);
+}
+
+main > section#lista > article > section#list > p {
+    font: bold 0.9em sans-serif;
+    text-align: justify;
+    margin: 0px 7px 18px;
+    padding: 15px 0px;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+main > section#lista > article > section#list > ul {
+    font: bold 0.9em sans-serif;
+    line-height: 18.3px;
+    margin: -13px 7px;
+}
+
+main > section#lista > article > section#list > ul > div.lista2 {
+    margin: -146px 360px;
+}
+
+main > section#lista > article > section#list > p.texto2{
+    font: bold 0.9em sans-serif;
+    text-align: justify;
+    margin: 155px 7px -170px;
+    padding: 15px 0px;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+main > section#lista > article > section#list > p.texto2 > a {
+    text-decoration: none;
+    color: #4A7F61;
+}
+
+main > section#lista > article > section#list > p#textodif {
+    padding: 17px 0px 28px;
+}
+
+main > article#textofinal > p {
+    font: bold 0.9em sans-serif;
+    text-align: justify;
+    margin: 0px 7px 18px;
+    padding: 176px 31px 40px;
+    text-indent: 30px;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+main > article#textofinal > p > a {
+    text-decoration: none;
+    color: #4A7F61;
+}
+
+footer {
+    background-color: #1A5C38;
+}
+
+footer > p {
+    font: 11px sans-serif;
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinâmicas</h1>
+    <p>tenta abrir ai de todo jeito slc</p>
+
+    <picture>
+        <source media="(max-width: 717px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-enorme.png" alt="imagem flexível">
+    </picture>
+    <h1>áudios</h1>
+    <p>se liga nos áudios</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/verified-picasso.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

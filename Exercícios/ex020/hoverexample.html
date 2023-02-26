@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo hover</title>
+    <style>
+        div:hover {
+            color: red;
+        }
+
+        div > picture {
+            display: none;
+        }
+
+        div:hover > picture {
+            display: block;
+            color: purple;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>se liga nisso em baixo</h1>
+    <p>passa o mouse ai em baixo</p>
+    <div>
+        passe o mouse aqui 
+        
+        <picture>            
+            <img src="jax.jpg" alt="blackpliggers">
+            <p>surpresa eu voltei</p>
+        </picture>
+    </div>
+</body>
+</html>
